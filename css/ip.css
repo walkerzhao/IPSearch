@@ -1,0 +1,17 @@
+body{color:#FFFFFF; background:#000000;}
+
+  .head{width:90%; height:10%; margin:0 auto; font-size:48px; line-height:48px; padding-top:26px;
+  color:#FFA600;
+  }
+.row{width:90%;margin:25px auto;}
+.discription{padding:8% 2%;}
+.about{color:#FFFFFF; font-size:26px; background:#FF006E;  border-radius:5px;}
+.strong{color:#FFFFFF;font-size:18px; background:#FF9E00; margin:10px 20px;border-radius:5px;}
+.searchIp{border:solid 2px  #FF006E;padding:5%; float:right; border-radius:5px; }
+ #ip{font-size:24px; border:1px solid #FF9E00; border-radius:3px; color:#000000;width:70%; float:left;}
+ .btn{background:#FF9E00; font-size:24px;color:#FFFFFF; width:20%; float:right; margin-top:-5px; margin-right:20px;}
+ .table{margin-top:60px; font-size:20px;}
+ .p{font-size:15px; line-height:150%; margin:10px 40px;}
+ 
+ 
+ 
