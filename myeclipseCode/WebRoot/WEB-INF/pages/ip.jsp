@@ -35,6 +35,10 @@
 			<p class="p">根据用户提供的IP地址，快速查询出该IP地址所在的地理信息和地理相关的信息，包括国家、省、市和运营商。</p>
 			<p class="strong">我们的优势：</p>
 			<p class="p">提供国家、省、市、县、运营商全方位信息，信息维度广，格式规范。</p>
+            <div class="yourIp">
+        	<span>您的IP是：</span>
+        	<span id="showYourIp">192.168.1.2</span>
+        </div>
 		</div>
 
 		<!--IP地址查询部分-->
@@ -70,6 +74,7 @@
 			</table>
 		</div>
 	</div>
+    <div class="foot">@Author by <strong>ZhaoYu and HuQiong</strong></div>
 
 
 
