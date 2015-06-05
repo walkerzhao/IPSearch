@@ -4,8 +4,9 @@ $(function(){
 		var ipValue=$("#ip").val();
 		if(isIp(ipValue))
 		{
-			
-			$.ajax({type:'POST',url:'ip.php',dataType:'json',data:$("#ip").val(),
+			var params=$('#myForm3').formSerialize();
+			params = decodeURIComponent(params,true);   
+			$.ajax({type:'POST',url:'search',dataType:'json', data:params,
 			success:function(response,status,xhr){
 				$('#showIp').text(ipValue);
 				
